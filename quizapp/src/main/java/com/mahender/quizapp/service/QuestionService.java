@@ -16,6 +16,7 @@ public class QuestionService {
     @Autowired
     QuestionDao questionDao;
 
+
     public ResponseEntity<List<Question>> getAllQuestions(){
         try{
        return new ResponseEntity<>(questionDao.findAll(), HttpStatus.OK);
@@ -48,4 +49,5 @@ public class QuestionService {
         questionDao.deleteById(questionId);
         return "deleted";
     }
+
 }
