@@ -1,4 +1,4 @@
-package com.mahender.quizapp;
+package com.mahender.quizapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
