@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b31ac838-2862-4ecd-b45c-55ddffb0956d" name="Changes" comment="." />
+    <list default="true" id="b31ac838-2862-4ecd-b45c-55ddffb0956d" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizapp/src/main/java/com/mahender/quizapp/model/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/quizapp/src/main/java/com/mahender/quizapp/model/Quiz.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +30,12 @@
     &quot;assignee&quot;: &quot;Mahender-Kumar&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mahender-Kumar/spring-quiz.git",
-    "accountId": "4e7bd73c-a49c-4185-b117-112124756475"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mahender-Kumar/spring-quiz.git&quot;,
+    &quot;accountId&quot;: &quot;4e7bd73c-a49c-4185-b117-112124756475&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
