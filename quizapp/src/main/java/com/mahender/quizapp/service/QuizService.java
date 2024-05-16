@@ -3,6 +3,7 @@ package com.mahender.quizapp.service;
 import com.mahender.quizapp.dao.QuestionDao;
 import com.mahender.quizapp.dao.QuizDao;
 import com.mahender.quizapp.model.Question;
+import com.mahender.quizapp.model.QuestionWrapper;
 import com.mahender.quizapp.model.Quiz;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 
 @Service
 public class QuizService {
@@ -30,5 +33,11 @@ public class QuizService {
           quizDao.save(quiz);
 
           return new ResponseEntity<>("success", HttpStatus.CREATED);
+     }
+
+
+     public ResponseEntity<List<QuestionWrapper>> getQuizQuestions(Integer id) {
+          Optional<Quiz> quiz=quizDao.findById(id);
+          List<Question> questionsFromDB= quiz.
      }
 }
