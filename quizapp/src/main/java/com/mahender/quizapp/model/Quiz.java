@@ -25,4 +25,8 @@ public class Quiz {
         this.questions=questions;
 
     }
+
+    public List<Question> getQuestions() {
+        return questions;
+    }
 }
