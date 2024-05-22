@@ -1,6 +1,6 @@
 package com.mahender.quizapp.service;
 
-import com.mahender.quizapp.Question;
+import com.mahender.quizapp.model.Question;
 import com.mahender.quizapp.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
